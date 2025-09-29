@@ -9,10 +9,10 @@ const __dirname = path.dirname( fileURLToPath( import.meta.url ) )
 // DB CLIENT (POSTGRES)
 let client = new Client( {
 	user: "postgres",
-	password: "math",
+	password: "0ybek123",
 	host: "localhost",
 	port: 5432,
-	database: "postgres",
+	database: "ecommerce",
 } )
 
 init()
@@ -30,7 +30,7 @@ async function init() {
 
 	client = new Client( {
 		user: "postgres",
-		password: "math",
+		password: "0ybek123",
 		host: "localhost",
 		port: 5432,
 		database: "ecommerce",

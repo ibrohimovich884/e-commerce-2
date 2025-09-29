@@ -3,6 +3,8 @@ import { executeQuery } from "../utils/db.js"
 
 const router = new Router()
 
+const ITEMS_PER_PAGE = 10
+
 router.get( "/", async ( _, res ) => {
 
 	res.send( await executeQuery( `

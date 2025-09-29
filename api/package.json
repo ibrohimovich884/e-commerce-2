@@ -5,6 +5,10 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
+<<<<<<< HEAD
+=======
+		"idb": "node src/init.js",
+>>>>>>> 23dd10d496d3aff4fa2badc22690c7bf2bd2eacb
 		"dev": "node --env-file=src/.env --watch src/index.js",
 		"start": "node --env-file=src/.env src/index.js"
 	},
